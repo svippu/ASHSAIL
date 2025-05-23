@@ -29,15 +29,15 @@ export function Contact() {
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <Phone className="h-6 w-6 text-amber-600" />
-                <span>1-800-HONEY-IMPORT</span>
+                <span>1-800-ASHSAIL-HONEY</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="h-6 w-6 text-amber-600" />
-                <span>contact@purehoneyimports.com</span>
+                <span>honey@ashsailhoney.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="h-6 w-6 text-amber-600" />
-                <span>123 Bee Street, Honey Valley, CA 90210</span>
+                <span>Columbus, Ohio, 4322</span>
               </div>
             </div>
           </motion.div>
