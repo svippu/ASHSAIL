@@ -1,3 +1,4 @@
+console.log("App is rendering!");
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
