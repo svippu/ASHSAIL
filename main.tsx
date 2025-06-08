@@ -1,14 +1,15 @@
-import './index.css';
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App.tsx';
+import './index.css';  // ✅ MUST be here!
 
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
+import App from './App';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <BrowserRouter basename="/ASHSAIL">
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <HashRouter>
       <App />
-    </BrowserRouter>
-  </StrictMode>
+    </HashRouter>
+  </React.StrictMode>
 );
+
