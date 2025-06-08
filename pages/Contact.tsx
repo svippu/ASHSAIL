@@ -33,11 +33,11 @@ export function Contact() {
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="h-6 w-6 text-amber-600" />
-                <span>honey@ashsailhoney.com</span>
+                <span>support@ashsail.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="h-6 w-6 text-amber-600" />
-                <span>Columbus, Ohio, 4322</span>
+                <span>Columbus, Ohio, 43220</span>
               </div>
             </div>
           </motion.div>
